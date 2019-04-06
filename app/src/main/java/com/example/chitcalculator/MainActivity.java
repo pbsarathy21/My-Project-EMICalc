@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         viewPager = (ViewPager) findViewById(R.id.viewPager);
         tabLayout = (TabLayout) findViewById(R.id.tabLayout);
         adapter = new TabAdapter(getSupportFragmentManager());
-        adapter.addFragment(new Tab1Fragment(), "Tab 1");
+        adapter.addFragment(new Tab1Fragment(), "வட்டி கணக்கிடுதல்");
         adapter.addFragment(new Tab2Fragment(), "Tab 2");
         adapter.addFragment(new Tab3Fragment(), "Tab 3");
         viewPager.setAdapter(adapter);
